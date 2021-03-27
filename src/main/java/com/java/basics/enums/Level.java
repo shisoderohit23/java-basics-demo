@@ -19,6 +19,7 @@ public enum Level {
     }; // semicolon needed when fields and methods follows
     private final int levelCode;
 
+    // must be package-private or private access and can not be called from outside
     Level(int levelCode) {
         this.levelCode = levelCode;
     }
